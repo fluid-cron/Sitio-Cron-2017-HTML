@@ -1,0 +1,149 @@
+.image-wrapper {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+figure, figcaption, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.image-wrapper li {
+  overflow: hidden;
+  display: none;
+}
+
+.image-wrapper li:nth-child(-n+2) {
+  display: block;
+}
+
+.image-wrapper li > figure {
+  float: left;
+  width: 50%;
+  margin: 0;
+}
+
+.image-wrapper li > figure.mobile {
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+
+.image-wrapper li > figure img {
+  display: block;
+  max-width: 100%;
+  height: auto;    
+}
+
+.color-333{
+    background-color: #333333;
+}
+
+.color-1f1f{
+    background-color: #1f1f1f;
+}
+
+.image-details {
+  clear: both;
+  /*padding: 3em;*/
+  background: #e0b32c;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  display: none;
+  -moz-box-shadow: -3px -9px 23px #000000;
+  -webkit-box-shadow: -3px -9px 23px #000000;
+  box-shadow: -3px -9px 23px #000000;
+}
+
+.image-details-close {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  width: 25px;
+  height: 25px;
+  text-indent: -9999em;
+  background-image: url('../img/close-333.png');
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+}
+
+.image-details-content {
+  float: left;
+  width: 50%;
+  /*margin: 0 3%;*/
+  padding-right: 0.8em;
+  /*border-right: 1px dotted #666;*/
+}
+
+.image {
+  /*padding: 0.3em;
+  border: 1px solid #888;*/
+}
+
+.image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-details-desc {
+  /*float: left;
+  width: 40%;*/
+  color: #767676;
+}
+
+.image-details-desc h3 {
+      font-weight: normal;
+    font-size: 25px;
+    color: #333333;
+    padding-bottom: 11px;
+    border-bottom: 1px solid #333333;
+    margin-bottom: 0.3em;
+
+}
+
+.nuestros-trabajos {
+  height: 600px;
+}
+
+#show-less-google-mobile, #show-less-google {
+  display: none;
+}
+
+.image-details-text{
+    font-size: 14px;
+    color: #333333;
+    
+}
+
+.nuestro-equipo-ancla {
+    width: 100px;
+    position: absolute;
+    margin-bottom: 0px;  
+}
+
+.nuestra-diferencia-ancla {
+    width: 100px;
+    position: absolute;
+    margin-bottom: 0px;  
+}
+
+.nuestra-diferencia-ancla-mobile {
+    width: 100px;
+    position: absolute;
+    margin-bottom: 0px;  
+}
+
+.image-link.active > img {
+  background-color: #f0c330;
+  filter: grayscale(0);
+}
+
+
+
+
+
+
